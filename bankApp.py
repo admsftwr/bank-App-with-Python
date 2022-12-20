@@ -86,28 +86,8 @@ def withdrawMoney(account):
 
 
     else: #NO VALID NUMBER ENTERED
-        print("Geçerli rakam girmediniz!")
+        print("No valid number entered!")
 
 
 
 withdrawMoney(accountInformation)
-
-
-# Başta kullanıcı adı ve şifre bilgileri'ni alır, hesaba bu bilgilere göre giriş yapar.
-# Hesaba giriş yaptıktan sonra liste içinde bulunan isim ve soyisim bilgileri ile selamlama yapar.
-# Programa ilk girdiğimizde bir menü ile karşılaşılır, menüde para çekme ve para yatırma seçenekleri vardır.
-
-# Para çekme seçeneğine tıklarsak bize hesap bakiyemizi ve ek hesabımızın bilgilerini aktarır.
-# Çekeceğimiz para miktarının durumuna göre işlemler farklıdır:
-# 1- Eğer çekeceğimiz miktar bakiyemizden az ise parayı çeker ve kalan bakiyemizi söyler.
-# 2- Eğer çekeceğimiz miktar bakiyemiz kadar ise yine parayı çeker ve kalan bakiyemizi söyler.
-# 3- Eğer çekeceğimiz miktar bakiyemizden fazla ise ek hesap kullanıp kullanmayacağımızı sorar. Bu durumda yine 2 ihtimal doğar:
-#  a- Eğer çekeceğimiz miktar bakiyemiz ve ek hesabımızın toplamından fazla ise parayı çekmez.
-#  b- Eğer çekeceğimiz miktar bakiyemiz ve ek hesabımızın toplamından az ise ek hesaptan ve bakiyeden parayı çeker, hesap ve ek hesap bilgilerini söyler.
-# Tüm bu para çekme olayları sonucunda karşımıza hep bir menü daha çıkar. Bu menüde ana menüye dönme ve çıkış yapma seçenekleri vardır.
-# Ana menüye'de dönsek çıkışta yapsak çektiğimiz para miktarına göre bakiyemiz save edilmez, hala bakiye aynı kalır.
-
-# Para yatırma seçeneğine tıklarsak bize hesap bakiyemizi ve ek hesabımızın bilgilerini aktarır.
-# Yatırılacak miktarı sorar ve işlem tamamlanınca yeni hesap bakiyemizi ve ek hesabımızın bilgilerini aktarır.
-# Karşımıza hep bir menü daha çıkar. Bu menüde ana menüye dönme ve çıkış yapma seçenekleri vardır.
-# Ana menüye'de dönsek çıkışta yapsak çektiğimiz para miktarına göre bakiyemiz save edilmez, hala bakiye aynı kalır.
